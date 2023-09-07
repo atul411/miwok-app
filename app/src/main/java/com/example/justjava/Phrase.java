@@ -29,7 +29,7 @@ public class Phrase extends AppCompatActivity {
         words.add(new Word("I'm sorry.", "Lo siento.",-1, R.raw.phrase_what_is_your_name));
         words.add(new Word("See you soon!", "¡Hasta pronto!",-1, R.raw.phrase_where_are_you_going));
         words.add(new Word("Goodbye.", "Adiós.",-1, R.raw.phrase_yes_im_coming));
-
+        words.add(new Word("Goodbye.", "Adiós.",-1, R.raw.phrase_yes_im_coming));
         WordAdapter adapter = new WordAdapter(this, words);
         ListView listView = (ListView) findViewById(R.id.phrases);
         listView.setAdapter(adapter);
