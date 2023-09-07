@@ -49,6 +49,7 @@ public class Number extends AppCompatActivity {
                 Word word = words.get(position);
                 myMedia = MediaPlayer.create(Number.this, word.AudioResourceId());
                 myMedia.start();
+                
 
                 myMedia.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
                     @Override
